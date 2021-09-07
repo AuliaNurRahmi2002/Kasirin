@@ -92,11 +92,12 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   h4 {
-    color: var(--gray-color);
+    color: var(--dark-color);
     font-family: var(--base-font-family);
     font-size: var(--p-font-size);
     letter-spacing: 1px;
     text-transform: uppercase;
+    font-weight: bold;
   }
 
   p {
@@ -576,7 +577,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .site-footer a:hover,
   .footer-icon {
-    color: var(--secondary-color);
+    color: var(--hover);
   }
 
   .footer-link li {
