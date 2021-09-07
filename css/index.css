@@ -41,3 +41,8 @@ section section{
 .img-fluid{
     
 }
+
+/* TESTIMONIAL */
+h2 .testimonial{
+    font-weight: bold;
+}
