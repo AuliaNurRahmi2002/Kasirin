@@ -31,8 +31,9 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   :root {
-    --primary-color:        #057a8d;
+    --primary-color:        #FF95C5;
     --secondary-color:      #f1c111;
+    --hover:                #F3F1F5;
     --white-color:          #ffffff;
     --dark-color:           #171819;
     --project-bg:           #f0f8ff;
@@ -192,7 +193,7 @@ https://templatemo.com/tm-538-digital-trend
   a:hover, 
   a:active, 
   a:focus {
-    color: var(--secondary-color);
+    color: var(--hover);
     outline: none;
     text-decoration: none;
   }
@@ -244,7 +245,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .nav-link.active,
   .nav-link:hover {
-    color: var(--secondary-color);
+    color: var(--hover);
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -262,7 +263,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .navbar-expand-lg .navbar-nav .nav-link.contact:hover,
   .navbar-expand-lg .navbar-nav .nav-link.contact.active {
-    background: var(--secondary-color);
+    background: var(--hover);
     color: var(--white-color);
   }
 
@@ -428,7 +429,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .owl-theme .owl-dots .owl-dot.active span, 
   .owl-theme .owl-dots .owl-dot:hover span {
-    background: var(--secondary-color);
+    background: var(--hover);
   }
 
   .list-detail {
@@ -515,7 +516,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .blog-header-info a:hover {
-    color: var(--secondary-color);
+    color: var(--hover);
   }
 
   .blog-sidebar img {
@@ -575,7 +576,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .site-footer a:hover,
   .footer-icon {
-    color: var(--secondary-color);
+    color: var(--hover);
   }
 
   .footer-link li {
