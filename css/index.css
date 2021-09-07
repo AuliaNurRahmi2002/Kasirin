@@ -1,0 +1,11 @@
+/* MENU BAR */
+
+div ul li a{
+   word-spacing: 5px;
+}
+
+
+/* ABOUT */
+.img-fluid{
+    border-radius: 50%;
+}
