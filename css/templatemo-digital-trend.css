@@ -98,6 +98,7 @@ https://templatemo.com/tm-538-digital-trend
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 25px;
   }
 
   p {
@@ -109,7 +110,7 @@ https://templatemo.com/tm-538-digital-trend
   b, 
   strong {
     letter-spacing: 0;
-    color: var(--secondary-color);
+    color: var(--white-color);
   }
 
 
@@ -216,7 +217,9 @@ https://templatemo.com/tm-538-digital-trend
     width: 100%;
   }
 
-
+   #about .container .row div{
+    padding-bottom: 50px;
+  }
 
   /*---------------------------------------
     MENU             
@@ -363,9 +366,15 @@ https://templatemo.com/tm-538-digital-trend
   /*---------------------------------------
      PROJECT              
   -----------------------------------------*/
-
+  
+  #project .container-fluid .row div h2{
+    padding-top: 35px;
+  }
+  #project .container-fluid .row div .owl-dots{
+    padding-bottom: 25px;
+  }
   .project {
-    background: var(--project-bg);
+    background: var(--primary-color);
   }
 
   .project-wrapper {
@@ -572,7 +581,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .site-footer a {
-    color: var(--p-color);
+    color: var(--dark-color);
   }
 
   .site-footer a:hover,
@@ -712,4 +721,24 @@ https://templatemo.com/tm-538-digital-trend
     }
   }
 
+  /* SECTION */
+  .testimonial{
+    padding-top: 50px;
+    padding-bottom: 46px;
+  }
 
+ #hero .container .row div .hero-text strong{
+    padding-left: 0px;
+  }
+
+
+  /* FOOTER */
+  .copyright-text{
+    color: var(--dark-color);
+  }
+  .my-4{
+    color: var(--dark-color);
+  }
+  .mb-1{
+    color: var(--dark-color);
+  }
