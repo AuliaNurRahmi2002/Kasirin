@@ -225,6 +225,7 @@ https://templatemo.com/tm-538-digital-trend
     MENU             
   -----------------------------------------*/
 
+  
   nav.navbar{
     background-color: #FF80AB;
 }
@@ -248,6 +249,7 @@ section.hero.hero.d-flex{
   .navbar-brand {
     color: var(--white-color);
     font-size: var(--h2-font-size);
+    margin-right: 0px;
   }
 
   .nav-link {
@@ -274,11 +276,13 @@ section.hero.hero.d-flex{
   }
 
   .navbar-expand-lg .navbar-nav .nav-link.contact {
-    border: 2px solid var(--secondary-color);
+    border: 2px  var(--secondary-color);
     border-radius: var(--border-radius-large);
     color: var(--white-color);
     font-family: var(--font-bold-family);
     padding: 0.6em 2em 0.8em 2em;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .navbar-expand-lg .navbar-nav .nav-link.contact:hover,
@@ -362,6 +366,9 @@ section.hero.hero.d-flex{
      HERO              
   -----------------------------------------*/
 
+  #hero{
+    padding-top: 0px;
+  }
   .hero {
     position: relative;
     padding: 5em 0;
@@ -600,6 +607,9 @@ section section{
      FOOTER              
   -----------------------------------------*/
 
+  #footer .site-footer{
+    padding-bottom: 0px;
+  }
   .site-footer {
     background: var(--primary-color);
     padding: 7em 0 6em 0;
@@ -745,6 +755,7 @@ section section{
       margin-left: 0;
     }
   }
+
 
   /* SECTION */
   .testimonial{
