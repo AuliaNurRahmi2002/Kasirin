@@ -220,6 +220,11 @@ https://templatemo.com/tm-538-digital-trend
    #about .container .row div{
     padding-bottom: 50px;
   }
+  .img-fluid-aplikasi{
+      border-radius: 0px;
+      width: 202px;
+      height: 426px;
+  }
 
   /*---------------------------------------
     MENU             
@@ -390,9 +395,28 @@ section.hero.hero.d-flex{
      PROJECT              
   -----------------------------------------*/
   
-  #project .container-fluid .row div h2{
-    padding-top: 35px;
+  .containerservices{
+    width: 600px;
+    height: 400px;
+    background-color: var(--project-bg);
+    text-align: center;
   }
+  
+ 
+  
+  #project .row .text-white{
+    text-align: center;
+  }
+  #project .container-fluid .row div{
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .service{
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+  }
+  
   #project .container-fluid .row div .owl-dots{
     padding-bottom: 25px;
   }
@@ -417,6 +441,7 @@ section.hero.hero.d-flex{
     left: 32px;
     width: 90%;
     padding: 32px;
+    height: 90px;
   }
 
   .project-info small {
@@ -503,7 +528,8 @@ section.hero.hero.d-flex{
   /*---------------------------------------
       ABOUT            
   -----------------------------------------*/
-.img-fluid{
+  
+  .img-fluid{
     border-radius: 50%;
 }
 section#about{
@@ -607,6 +633,28 @@ section section{
      FOOTER              
   -----------------------------------------*/
 
+  /* .copyright{
+    width: 100%;
+    height: 30px;
+    background-color: yellow;
+    text-align: center;
+  } */
+  /* .ccopyright{
+    background-color: yellow;
+    width: 100%;
+    height: 20px;
+  } */
+  .copyright{
+    width: 100%;
+    height: 60px;
+    padding-bottom: 10px;
+    background-color: #FF80AB;
+    line-height: 60px;
+  }
+  .copyright .copyright-text{
+    text-align: center;
+    
+  }
   #footer .site-footer{
     padding-bottom: 0px;
   }
@@ -758,8 +806,11 @@ section section{
 
 
   /* SECTION */
+  #testimonial .text-black{
+          text-align: center;
+  }
   .testimonial{
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 46px;
   }
 
@@ -767,7 +818,9 @@ section section{
     padding-left: 0px;
   }
 
-
+  .student-testimonies .container h2{
+    text-align: center;
+  }
   /* FOOTER */
   .copyright-text{
     color: var(--dark-color);
