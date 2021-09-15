@@ -370,7 +370,9 @@ section.hero.hero.d-flex{
   /*---------------------------------------
      HERO              
   -----------------------------------------*/
-
+  #hero .hero-text{
+    text-align: center;
+  }
   #hero{
     padding-top: 0px;
   }
@@ -529,6 +531,9 @@ section.hero.hero.d-flex{
       ABOUT            
   -----------------------------------------*/
   
+  #beranda .container .row .left-text{
+    text-align: justify;
+  }
   .img-fluid{
     border-radius: 50%;
 }
@@ -653,10 +658,11 @@ section section{
   }
   .copyright .copyright-text{
     text-align: center;
-    
+    font-size: 16px;
   }
   #footer .site-footer{
     padding-bottom: 0px;
+    padding-top: 50px;
   }
   .site-footer {
     background: var(--primary-color);
@@ -688,7 +694,9 @@ section section{
     margin-top: 5.3em;
   }
 
-
+  #footer .my-4{
+    font-family: bold;
+  }
 
   /*---------------------------------------
      SOCIAL ICON              
@@ -806,8 +814,14 @@ section section{
 
 
   /* SECTION */
+  #testimonial .student-testimonies{
+    padding-top: 0px;
+  }
   #testimonial .text-black{
           text-align: center;
+          font-weight: bold;
+          padding-top: 0px;
+          padding-bottom: 30px;
   }
   .testimonial{
     padding-top: 0px;
