@@ -649,6 +649,8 @@ section section{
     width: 100%;
     height: 20px;
   } */
+ 
+  
   .copyright{
     width: 100%;
     height: 60px;
@@ -922,4 +924,24 @@ section section{
   #services .section-title{
     text-align: center;
     padding-bottom: 50px;
+  }
+
+  /* TESTIMONI */
+  #testimonial #testi1 p .font-weight{
+    padding-top: 0px;
+  }
+  #testimonial #testi2 p{
+    padding-top: 0px;
+  }
+  #testimonial #testi3 p{
+    padding-top: 0px;
+  }
+  #testimonial #testi4 p{
+    padding-top: 0px;
+  }
+  #testimonial #testi5 p{
+    padding-top: 0px;
+  }
+  #testimonial .carousel-inner p #testi1{
+    text-align: justify;
   }
